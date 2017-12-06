@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D00A0B81FC64E120063FD19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0B71FC64E120063FD19 /* AppDelegate.swift */; };
+		0D00A0BA1FC64E120063FD19 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0B91FC64E120063FD19 /* MapController.swift */; };
+		0D00A0BD1FC64E120063FD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D00A0BB1FC64E120063FD19 /* Main.storyboard */; };
+		0D00A0BF1FC64E120063FD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D00A0BE1FC64E120063FD19 /* Assets.xcassets */; };
+		0D00A0C21FC64E120063FD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D00A0C01FC64E120063FD19 /* LaunchScreen.storyboard */; };
+		0D00A0CD1FC64E120063FD19 /* InmoviliariaVirtualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0CC1FC64E120063FD19 /* InmoviliariaVirtualTests.swift */; };
+		0D00A0D81FC64E130063FD19 /* InmoviliariaVirtualUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0D71FC64E130063FD19 /* InmoviliariaVirtualUITests.swift */; };
+		0D00A0E61FC66EA00063FD19 /* AvisosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0E51FC66EA00063FD19 /* AvisosController.swift */; };
+		0D00A0E81FC66EC60063FD19 /* MisAvisosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0E71FC66EC60063FD19 /* MisAvisosController.swift */; };
+		0D00A0EC1FC66FEB0063FD19 /* DetallesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0EB1FC66FEB0063FD19 /* DetallesController.swift */; };
+		0D00A0EE1FC670D40063FD19 /* AvisosRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0ED1FC670D40063FD19 /* AvisosRowController.swift */; };
+		0D00A0F11FC6718B0063FD19 /* Aviso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D00A0F01FC6718B0063FD19 /* Aviso.swift */; };
+		0D25F9F91FCA4F260052D17D /* MisAvisosRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D25F9F81FCA4F260052D17D /* MisAvisosRowController.swift */; };
+		0D2A94D51FD2C9600030838A /* PublicarMiAvisoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2A94D41FD2C9600030838A /* PublicarMiAvisoController.swift */; };
+		71CECF98B4ADB171ABAB8EA6 /* Pods_InmoviliariaVirtualUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C5B0B9C435B81F9007253D /* Pods_InmoviliariaVirtualUITests.framework */; };
+		A038A71DEF0997323DDED29B /* Pods_InmoviliariaVirtualTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBA910E21657623015C556E /* Pods_InmoviliariaVirtualTests.framework */; };
+		DEB47E0C0EAA39405CAA0B68 /* Pods_InmoviliariaVirtual.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A73913ECBF08F3BA641DF /* Pods_InmoviliariaVirtual.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D00A0C91FC64E120063FD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D00A0AC1FC64E120063FD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D00A0B31FC64E120063FD19;
+			remoteInfo = InmoviliariaVirtual;
+		};
+		0D00A0D41FC64E130063FD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D00A0AC1FC64E120063FD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D00A0B31FC64E120063FD19;
+			remoteInfo = InmoviliariaVirtual;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBA910E21657623015C556E /* Pods_InmoviliariaVirtualTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InmoviliariaVirtualTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D00A0B41FC64E120063FD19 /* InmoviliariaVirtual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InmoviliariaVirtual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D00A0B71FC64E120063FD19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D00A0B91FC64E120063FD19 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		0D00A0BC1FC64E120063FD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D00A0BE1FC64E120063FD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D00A0C11FC64E120063FD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D00A0C31FC64E120063FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D00A0C81FC64E120063FD19 /* InmoviliariaVirtualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InmoviliariaVirtualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D00A0CC1FC64E120063FD19 /* InmoviliariaVirtualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InmoviliariaVirtualTests.swift; sourceTree = "<group>"; };
+		0D00A0CE1FC64E120063FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D00A0D31FC64E130063FD19 /* InmoviliariaVirtualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InmoviliariaVirtualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D00A0D71FC64E130063FD19 /* InmoviliariaVirtualUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InmoviliariaVirtualUITests.swift; sourceTree = "<group>"; };
+		0D00A0D91FC64E130063FD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D00A0E51FC66EA00063FD19 /* AvisosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisosController.swift; sourceTree = "<group>"; };
+		0D00A0E71FC66EC60063FD19 /* MisAvisosController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisAvisosController.swift; sourceTree = "<group>"; };
+		0D00A0EB1FC66FEB0063FD19 /* DetallesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetallesController.swift; sourceTree = "<group>"; };
+		0D00A0ED1FC670D40063FD19 /* AvisosRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvisosRowController.swift; sourceTree = "<group>"; };
+		0D00A0F01FC6718B0063FD19 /* Aviso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aviso.swift; sourceTree = "<group>"; };
+		0D25F9F81FCA4F260052D17D /* MisAvisosRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisAvisosRowController.swift; sourceTree = "<group>"; };
+		0D2A94D41FD2C9600030838A /* PublicarMiAvisoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicarMiAvisoController.swift; sourceTree = "<group>"; };
+		394A73913ECBF08F3BA641DF /* Pods_InmoviliariaVirtual.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InmoviliariaVirtual.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3621DA118A818C831DD8EA /* Pods-InmoviliariaVirtualUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtualUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtualUITests/Pods-InmoviliariaVirtualUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		555C9919920A5B52ABE841A9 /* Pods-InmoviliariaVirtual.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtual.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual.debug.xcconfig"; sourceTree = "<group>"; };
+		5A224686A9D82993E9F68B7A /* Pods-InmoviliariaVirtual.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtual.release.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual.release.xcconfig"; sourceTree = "<group>"; };
+		73C5B0B9C435B81F9007253D /* Pods_InmoviliariaVirtualUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InmoviliariaVirtualUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770E3189EB6EACC2325DB329 /* Pods-InmoviliariaVirtualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtualTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtualTests/Pods-InmoviliariaVirtualTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA69ECCC9CE8A3404B3CAE8 /* Pods-InmoviliariaVirtualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtualTests/Pods-InmoviliariaVirtualTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAB4447E1E84F9243C6617FA /* Pods-InmoviliariaVirtualUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InmoviliariaVirtualUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InmoviliariaVirtualUITests/Pods-InmoviliariaVirtualUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D00A0B11FC64E120063FD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB47E0C0EAA39405CAA0B68 /* Pods_InmoviliariaVirtual.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0C51FC64E120063FD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A038A71DEF0997323DDED29B /* Pods_InmoviliariaVirtualTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0D01FC64E130063FD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CECF98B4ADB171ABAB8EA6 /* Pods_InmoviliariaVirtualUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D00A0AB1FC64E120063FD19 = {
+			isa = PBXGroup;
+			children = (
+				0D00A0EF1FC6717B0063FD19 /* model */,
+				0D00A0B61FC64E120063FD19 /* InmoviliariaVirtual */,
+				0D00A0CB1FC64E120063FD19 /* InmoviliariaVirtualTests */,
+				0D00A0D61FC64E130063FD19 /* InmoviliariaVirtualUITests */,
+				0D00A0B51FC64E120063FD19 /* Products */,
+				5184BD659009E35245ABAD2D /* Pods */,
+				DEE3C62ABA1C586B7A90E902 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D00A0B51FC64E120063FD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D00A0B41FC64E120063FD19 /* InmoviliariaVirtual.app */,
+				0D00A0C81FC64E120063FD19 /* InmoviliariaVirtualTests.xctest */,
+				0D00A0D31FC64E130063FD19 /* InmoviliariaVirtualUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D00A0B61FC64E120063FD19 /* InmoviliariaVirtual */ = {
+			isa = PBXGroup;
+			children = (
+				0D00A0B71FC64E120063FD19 /* AppDelegate.swift */,
+				0D00A0B91FC64E120063FD19 /* MapController.swift */,
+				0D00A0BB1FC64E120063FD19 /* Main.storyboard */,
+				0D00A0BE1FC64E120063FD19 /* Assets.xcassets */,
+				0D00A0C01FC64E120063FD19 /* LaunchScreen.storyboard */,
+				0D00A0C31FC64E120063FD19 /* Info.plist */,
+				0D00A0E51FC66EA00063FD19 /* AvisosController.swift */,
+				0D00A0E71FC66EC60063FD19 /* MisAvisosController.swift */,
+				0D00A0EB1FC66FEB0063FD19 /* DetallesController.swift */,
+				0D00A0ED1FC670D40063FD19 /* AvisosRowController.swift */,
+				0D25F9F81FCA4F260052D17D /* MisAvisosRowController.swift */,
+				0D2A94D41FD2C9600030838A /* PublicarMiAvisoController.swift */,
+			);
+			path = InmoviliariaVirtual;
+			sourceTree = "<group>";
+		};
+		0D00A0CB1FC64E120063FD19 /* InmoviliariaVirtualTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D00A0CC1FC64E120063FD19 /* InmoviliariaVirtualTests.swift */,
+				0D00A0CE1FC64E120063FD19 /* Info.plist */,
+			);
+			path = InmoviliariaVirtualTests;
+			sourceTree = "<group>";
+		};
+		0D00A0D61FC64E130063FD19 /* InmoviliariaVirtualUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D00A0D71FC64E130063FD19 /* InmoviliariaVirtualUITests.swift */,
+				0D00A0D91FC64E130063FD19 /* Info.plist */,
+			);
+			path = InmoviliariaVirtualUITests;
+			sourceTree = "<group>";
+		};
+		0D00A0EF1FC6717B0063FD19 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0D00A0F01FC6718B0063FD19 /* Aviso.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5184BD659009E35245ABAD2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				555C9919920A5B52ABE841A9 /* Pods-InmoviliariaVirtual.debug.xcconfig */,
+				5A224686A9D82993E9F68B7A /* Pods-InmoviliariaVirtual.release.xcconfig */,
+				770E3189EB6EACC2325DB329 /* Pods-InmoviliariaVirtualTests.debug.xcconfig */,
+				BFA69ECCC9CE8A3404B3CAE8 /* Pods-InmoviliariaVirtualTests.release.xcconfig */,
+				3C3621DA118A818C831DD8EA /* Pods-InmoviliariaVirtualUITests.debug.xcconfig */,
+				FAB4447E1E84F9243C6617FA /* Pods-InmoviliariaVirtualUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEE3C62ABA1C586B7A90E902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				394A73913ECBF08F3BA641DF /* Pods_InmoviliariaVirtual.framework */,
+				0CBA910E21657623015C556E /* Pods_InmoviliariaVirtualTests.framework */,
+				73C5B0B9C435B81F9007253D /* Pods_InmoviliariaVirtualUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D00A0B31FC64E120063FD19 /* InmoviliariaVirtual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D00A0DC1FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtual" */;
+			buildPhases = (
+				8B21B6A7C41B8CB4E35F8BA1 /* [CP] Check Pods Manifest.lock */,
+				0D00A0B01FC64E120063FD19 /* Sources */,
+				0D00A0B11FC64E120063FD19 /* Frameworks */,
+				0D00A0B21FC64E120063FD19 /* Resources */,
+				332A77060A700404BE8E3A0E /* [CP] Embed Pods Frameworks */,
+				E513A1B453DEA98CFF0536E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InmoviliariaVirtual;
+			productName = InmoviliariaVirtual;
+			productReference = 0D00A0B41FC64E120063FD19 /* InmoviliariaVirtual.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D00A0C71FC64E120063FD19 /* InmoviliariaVirtualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D00A0DF1FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtualTests" */;
+			buildPhases = (
+				0A2128CC688F348E7341A5B2 /* [CP] Check Pods Manifest.lock */,
+				0D00A0C41FC64E120063FD19 /* Sources */,
+				0D00A0C51FC64E120063FD19 /* Frameworks */,
+				0D00A0C61FC64E120063FD19 /* Resources */,
+				447032AF383D5575787F463A /* [CP] Embed Pods Frameworks */,
+				D0F89E16A37F70C860436754 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D00A0CA1FC64E120063FD19 /* PBXTargetDependency */,
+			);
+			name = InmoviliariaVirtualTests;
+			productName = InmoviliariaVirtualTests;
+			productReference = 0D00A0C81FC64E120063FD19 /* InmoviliariaVirtualTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D00A0D21FC64E130063FD19 /* InmoviliariaVirtualUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D00A0E21FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtualUITests" */;
+			buildPhases = (
+				53F7892860207F0B3AC80660 /* [CP] Check Pods Manifest.lock */,
+				0D00A0CF1FC64E130063FD19 /* Sources */,
+				0D00A0D01FC64E130063FD19 /* Frameworks */,
+				0D00A0D11FC64E130063FD19 /* Resources */,
+				289A31BA979BE5E3A9DA0205 /* [CP] Embed Pods Frameworks */,
+				237E1400CC609DB62B57B4CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D00A0D51FC64E130063FD19 /* PBXTargetDependency */,
+			);
+			name = InmoviliariaVirtualUITests;
+			productName = InmoviliariaVirtualUITests;
+			productReference = 0D00A0D31FC64E130063FD19 /* InmoviliariaVirtualUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D00A0AC1FC64E120063FD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Juan;
+				TargetAttributes = {
+					0D00A0B31FC64E120063FD19 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0D00A0C71FC64E120063FD19 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D00A0B31FC64E120063FD19;
+					};
+					0D00A0D21FC64E130063FD19 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0D00A0B31FC64E120063FD19;
+					};
+				};
+			};
+			buildConfigurationList = 0D00A0AF1FC64E120063FD19 /* Build configuration list for PBXProject "InmoviliariaVirtual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D00A0AB1FC64E120063FD19;
+			productRefGroup = 0D00A0B51FC64E120063FD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D00A0B31FC64E120063FD19 /* InmoviliariaVirtual */,
+				0D00A0C71FC64E120063FD19 /* InmoviliariaVirtualTests */,
+				0D00A0D21FC64E130063FD19 /* InmoviliariaVirtualUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D00A0B21FC64E120063FD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00A0C21FC64E120063FD19 /* LaunchScreen.storyboard in Resources */,
+				0D00A0BF1FC64E120063FD19 /* Assets.xcassets in Resources */,
+				0D00A0BD1FC64E120063FD19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0C61FC64E120063FD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0D11FC64E130063FD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A2128CC688F348E7341A5B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InmoviliariaVirtualTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		237E1400CC609DB62B57B4CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtualUITests/Pods-InmoviliariaVirtualUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		289A31BA979BE5E3A9DA0205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtualUITests/Pods-InmoviliariaVirtualUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		332A77060A700404BE8E3A0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		447032AF383D5575787F463A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtualTests/Pods-InmoviliariaVirtualTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53F7892860207F0B3AC80660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InmoviliariaVirtualUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B21B6A7C41B8CB4E35F8BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InmoviliariaVirtual-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F89E16A37F70C860436754 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtualTests/Pods-InmoviliariaVirtualTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E513A1B453DEA98CFF0536E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InmoviliariaVirtual/Pods-InmoviliariaVirtual-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D00A0B01FC64E120063FD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2A94D51FD2C9600030838A /* PublicarMiAvisoController.swift in Sources */,
+				0D00A0BA1FC64E120063FD19 /* MapController.swift in Sources */,
+				0D25F9F91FCA4F260052D17D /* MisAvisosRowController.swift in Sources */,
+				0D00A0E61FC66EA00063FD19 /* AvisosController.swift in Sources */,
+				0D00A0E81FC66EC60063FD19 /* MisAvisosController.swift in Sources */,
+				0D00A0EE1FC670D40063FD19 /* AvisosRowController.swift in Sources */,
+				0D00A0F11FC6718B0063FD19 /* Aviso.swift in Sources */,
+				0D00A0B81FC64E120063FD19 /* AppDelegate.swift in Sources */,
+				0D00A0EC1FC66FEB0063FD19 /* DetallesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0C41FC64E120063FD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00A0CD1FC64E120063FD19 /* InmoviliariaVirtualTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D00A0CF1FC64E130063FD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D00A0D81FC64E130063FD19 /* InmoviliariaVirtualUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D00A0CA1FC64E120063FD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D00A0B31FC64E120063FD19 /* InmoviliariaVirtual */;
+			targetProxy = 0D00A0C91FC64E120063FD19 /* PBXContainerItemProxy */;
+		};
+		0D00A0D51FC64E130063FD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D00A0B31FC64E120063FD19 /* InmoviliariaVirtual */;
+			targetProxy = 0D00A0D41FC64E130063FD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D00A0BB1FC64E120063FD19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D00A0BC1FC64E120063FD19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D00A0C01FC64E120063FD19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D00A0C11FC64E120063FD19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D00A0DA1FC64E130063FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D00A0DB1FC64E130063FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D00A0DD1FC64E130063FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555C9919920A5B52ABE841A9 /* Pods-InmoviliariaVirtual.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InmoviliariaVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0D00A0DE1FC64E130063FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A224686A9D82993E9F68B7A /* Pods-InmoviliariaVirtual.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InmoviliariaVirtual/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtual;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0D00A0E01FC64E130063FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770E3189EB6EACC2325DB329 /* Pods-InmoviliariaVirtualTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InmoviliariaVirtualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InmoviliariaVirtual.app/InmoviliariaVirtual";
+			};
+			name = Debug;
+		};
+		0D00A0E11FC64E130063FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA69ECCC9CE8A3404B3CAE8 /* Pods-InmoviliariaVirtualTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InmoviliariaVirtualTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtualTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InmoviliariaVirtual.app/InmoviliariaVirtual";
+			};
+			name = Release;
+		};
+		0D00A0E31FC64E130063FD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3621DA118A818C831DD8EA /* Pods-InmoviliariaVirtualUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InmoviliariaVirtualUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InmoviliariaVirtual;
+			};
+			name = Debug;
+		};
+		0D00A0E41FC64E130063FD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB4447E1E84F9243C6617FA /* Pods-InmoviliariaVirtualUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = InmoviliariaVirtualUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cedis.InmoviliariaVirtualUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InmoviliariaVirtual;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D00A0AF1FC64E120063FD19 /* Build configuration list for PBXProject "InmoviliariaVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D00A0DA1FC64E130063FD19 /* Debug */,
+				0D00A0DB1FC64E130063FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D00A0DC1FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D00A0DD1FC64E130063FD19 /* Debug */,
+				0D00A0DE1FC64E130063FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D00A0DF1FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D00A0E01FC64E130063FD19 /* Debug */,
+				0D00A0E11FC64E130063FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D00A0E21FC64E130063FD19 /* Build configuration list for PBXNativeTarget "InmoviliariaVirtualUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D00A0E31FC64E130063FD19 /* Debug */,
+				0D00A0E41FC64E130063FD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D00A0AC1FC64E120063FD19 /* Project object */;
+}
