@@ -12,7 +12,7 @@ import Alamofire
 import SwiftyJSON
 
 class MapController: UIViewController, GMSMapViewDelegate, UITabBarControllerDelegate, UISearchBarDelegate{
-    let urlListAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/lista.php"
+    let urlListAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/lista.php"
     var activityInticator:UIActivityIndicatorView = UIActivityIndicatorView()
 
     @IBOutlet weak var mapView: GMSMapView!

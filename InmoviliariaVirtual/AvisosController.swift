@@ -13,7 +13,7 @@ import SwiftyJSON
 class AvisosController: UITableViewController, UITabBarControllerDelegate, UISearchBarDelegate,UISearchResultsUpdating{
     
     var avisos = [Aviso]()
-    let urlListAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/lista.php"
+    let urlListAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/lista.php"
     var activityInticator:UIActivityIndicatorView = UIActivityIndicatorView()
     
     var searchController = UISearchController(searchResultsController: nil)

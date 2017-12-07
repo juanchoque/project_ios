@@ -13,12 +13,12 @@ import SwiftyJSON
 class MisAvisosController: UITableViewController, UITabBarControllerDelegate{
     
     var avisos = [Aviso]()
-    let urlListAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/listam.php"
-    let urlInsertAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/insertar.php"
-    let urlEditAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/editar.php"
-    let urlDeleteAvisos:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/aviso/eliminar.php"
-    let urlObtenerCuenta:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/cuenta/obtener.php"
-    let urlInsertarCuenta:String = "http://www.labolsita.esy.es/inmoviliariavirtual/api/controllers/cuenta/insertar.php"
+    let urlListAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/listam.php"
+    let urlInsertAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/insertar.php"
+    let urlEditAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/editar.php"
+    let urlDeleteAvisos:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/aviso/eliminar.php"
+    let urlObtenerCuenta:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/cuenta/obtener.php"
+    let urlInsertarCuenta:String = "http://www.labolsita.esy.es/inmobiliariavirtual/api/controllers/cuenta/insertar.php"
     
     var idcuenta:String = "1" //por defecto
     
@@ -227,7 +227,7 @@ class MisAvisosController: UITableViewController, UITabBarControllerDelegate{
                     "latitud":aviso.latitud,
                     "longitud":aviso.longitud,
                     "telefono":aviso.telefono,
-                    "direccion":aviso.descripcion!,
+                    "direccion":aviso.direccion!,
                     "imagen":base64Data
                 ]
                 
@@ -268,7 +268,7 @@ class MisAvisosController: UITableViewController, UITabBarControllerDelegate{
                     "tipoaviso":"1",
                     "latitud":aviso.latitud,
                     "longitud":aviso.longitud,
-                    "direccion":aviso.descripcion!,
+                    "direccion":aviso.direccion!,
                     "telefono":aviso.telefono,
                     "imagen":base64Data
                     
