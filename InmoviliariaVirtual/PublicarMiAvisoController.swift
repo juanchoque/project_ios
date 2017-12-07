@@ -90,8 +90,8 @@ class PublicarMiAvisoController: UIViewController, UIImagePickerControllerDelega
             }
             
             var titulo = descripcion
-            if(descripcion.characters.count >= 5){
-                titulo = descripcion.substring(to:descripcion.index(descripcion.startIndex, offsetBy: 5))
+            if(descripcion.characters.count >= 20){
+                titulo = descripcion.substring(to:descripcion.index(descripcion.startIndex, offsetBy: 20))
             }
             let precio = Float(sprecio)!
             var id = 0
@@ -114,8 +114,8 @@ class PublicarMiAvisoController: UIViewController, UIImagePickerControllerDelega
         
         var descripcion:String = txtDescripcion.text!
         var titulo = descripcion
-        if(descripcion.characters.count >= 10){
-            titulo = descripcion.substring(to:descripcion.index(descripcion.startIndex, offsetBy: 10))
+        if(descripcion.characters.count >= 20){
+            titulo = descripcion.substring(to:descripcion.index(descripcion.startIndex, offsetBy: 20))
         }
         let precio = Float(txtPrecio.text!)!
         var id = 0

@@ -67,7 +67,7 @@ class MisAvisosController: UITableViewController, UITabBarControllerDelegate{
         cell.imgImagen.image = aviso.imagen
         cell.txtFecha.text = "Publicado: \(aviso.fecha!)"
         
-        cell.contentView.backgroundColor = UIColor.clear
+        //cell.contentView.backgroundColor = UIColor.clear
         
         let whiteRoundedView : UIView = UIView(frame: CGRect(x: 10, y: 8, width: self.view.frame.size.width - 20, height: 120))
         
@@ -375,6 +375,9 @@ class MisAvisosController: UITableViewController, UITabBarControllerDelegate{
         
         let cancelAction = UIAlertAction(title: "Cancelar", style: .default, handler: {
             (action : UIAlertAction!) -> Void in
+            
+            self.navigationItem.leftBarButtonItem?.isEnabled = false
+            self.navigationItem.rightBarButtonItem?.isEnabled = false
             
         })
         alertController.addTextField { (textField : UITextField!) -> Void in
